@@ -1,0 +1,51 @@
+.primary-button{
+      background: #3B75A2;  
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 14px;
+      padding: 13px 18px;
+      outline: none;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      &:disabled{
+        opacity: .4;
+      }
+      &.disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+        pointer-events: none; 
+      }
+      &:hover{
+        background: #4a8fc4;  
+      }
+}
+
+input{
+    padding: 13px 16px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #D1D1D1;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

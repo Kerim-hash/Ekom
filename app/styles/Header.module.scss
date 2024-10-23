@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0 ;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #0D1421;
+    font-weight: 600;
+    font-size: 14px;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .initial {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B75A2;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  

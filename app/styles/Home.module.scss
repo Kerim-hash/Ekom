@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    h3{
+        color: #54595E;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    label {
+        color: #4F4F4F;
+        font-size: 12px;
+    }
+}
+
+.buttons{
+    display: flex;
+    margin-top: 36px;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+ 
