@@ -73,7 +73,7 @@ Implement actual logic for the password generator and calculator pages.
 Add tests using Jest or React Testing Library.
 Enhance UI/UX, such as providing visual feedback when the name is saved.
 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License. 
 
 Technologies Used
 Next.js - React Framework for SSR and SSG
